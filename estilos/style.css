@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'idroid';
+    src: url('fontes/idroid.otf');
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('fontes/roboto-normal.ttf');
+}
+
+:root {
+    --cor0: #437257;
+    --cor1: #579472;
+    --cor2: #84E0AC;
+    --cor3: #57947263;
+}
+
+header {
+    background-image: linear-gradient(#437257, #579472, hsl(147, 26%, 46%));
+    margin: 0px 0px 0px 0px;
+    padding: 5px;
+    color: white;
+    font: lighter 1em 'roboto';
+    box-shadow: 3px 1px 8px black;
+}
+
+body {
+    background-color: #84E0AC ;
+    margin: 0;   
+}
+#t1 {
+    text-align: center;
+}
+
+.p1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav {
+    margin: 0;
+    padding: 5px;
+    
+}
+
+nav > a {
+    margin-right: 30px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; 
+    background-color: #579472;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 2px 4px 0px black;
+    min-width: 180px;
+    max-width: 600px;
+    
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+    font-family: 'roboto';
+    text-indent: 20px;
+}
+
+h2 {
+    font: bold 2em 'idroid';
+    color: #437257;
+}
+
+h3 {
+    font: bold 1.7em 'idroid';
+    color: #437257;
+    background-color: #57947263;
+    padding: 8px;
+}
+
+article {
+    background-color: #9FE1BF;
+    border-radius: 10px;
+    padding: 1px 10px 3px 10px;
+    margin-top: 25px;
+}
+
+h4 {
+    background-color:#579472 ;
+    color: white;
+    margin: 0px -10px 0px -10px;
+    padding: 10px 5px 15px 5px;
+    border-radius: 10px 10px 0 0;
+}
+
+.v1 {
+    background-color:#437257 ;
+    margin: -10px;
+    padding: 20px;
+}
+
+.a1:hover {
+    background-color: #437257;
+}
+
+.a2:hover {
+    background-color: #437257;
+}
+
+.a3:hover {
+    background-color: #437257;
+}
+
+.a4:hover {
+    background-color: #437257;
+    
+}
+
+footer {
+    background-color: #437257 ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+ul {
+    display: inline-block;
+    list-style-image: url('imagens/confere15.png');
+}
